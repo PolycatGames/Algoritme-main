@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial';
+    background-color: #010101;
+    padding-left: 100px;
+}
+
+.axis {
+    stroke: #ffffff;
+    fill: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.axis-label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    fill: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-anchor: middle;
+}
+
+.data-point {
+    fill: rgb(255, 255, 255);
+}
+
+.data-line {
+    stroke: rgb(255, 255, 255);
+}
